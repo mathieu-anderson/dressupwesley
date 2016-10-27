@@ -1,9 +1,18 @@
 
-img {
-    width: auto;
-    height: 100%;
-}
 body {
     background-image: url("images/bg.jpg");
     text-align: center;
+}
+
+a {
+  cursor:pointer;
+}
+
+img#randomImageTag {
+  max-width: 100%;
+
+}
+
+div {
+  height: 100%;
 }

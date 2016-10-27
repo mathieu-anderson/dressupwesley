@@ -1,45 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
 
-<html>
 <head>
-<link rel="stylesheet" type="text/css" href="style.css">
-<script type="text/javascript">
-var imageURLs = [
-  "images/S01E01.jpg",
-  "images/S01E02.jpg",
-  "images/S01E03.jpg",
-  "images/S01E06.jpg",
-  "images/S01E07.jpg",
-  "images/S01E08.jpg",
-  "images/S01E09.jpg",
-  "images/S01E10.jpg",
-  "images/S01E10_2.jpg",
-  "images/S01E13.jpg",
-  "images/S01E14.jpg",
-  "images/S01E15.jpg",
-  "images/S01E17.jpg",
-  "images/S01E18.jpg",
-  "images/S01E19.jpg",
-  "images/S01E22.jpg",
-  "images/S01E23.jpg",
-  "images/S02E01.jpg"
-];
-function getImageTag() {
-  var img = '<img src=\"';
-  var randomIndex = Math.floor(Math.random() * imageURLs.length);
-  img += imageURLs[randomIndex];
-  img += '\" alt=\"Dress up, Wesley!"/>';
-  return img;
-    }
-</script>
-
-<title>What is Wesley wearing today?</title>
-
+    <script src="myscript.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>What is Wesley wearing today?</title>
 </head>
+
+
 <body>
-      <a href="http://mathieuanderson.fr/toys/whatiswesleywearingtoday.html">
-      <script type="text/javascript">
-      document.write(getImageTag());
-      </script>
-    </a>
+    <div>
+    <img onclick="randomImage()" id="randomImageTag" src="images/S01E01.jpg">
+    </div>
 </body>
+
 </html>
