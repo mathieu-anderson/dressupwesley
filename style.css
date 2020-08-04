@@ -10,7 +10,7 @@ a {
 
 img#randomImageTag {
   max-width: 100%;
-
+  cursor: pointer;
 }
 
 div {
